@@ -1,9 +1,67 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "files": [],
+  "companies": [
+    {
+      "id": 1,
+      "name": "company1"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "employees": [
+    {
+      "isActive": true,
+      "nome": "Gabrielly Agatha Brito",
+      "sexo": "f",
+      "cpf": "416.241.493-91",
+      "dataNascimento": "1981-01-06T03:00:00.000Z",
+      "rg": "14.518.963-6",
+      "cargo": "Gerente",
+      "noEpi": false,
+      "atividades": [
+        {
+          "nome": "Soldagem",
+          "epis": [
+            {
+              "nomeEPI": "epi1",
+              "numeroCA": "ca1"
+            }
+          ]
+        }
+      ],
+      "companyId": "1",
+      "id": "939926"
+    },
+    {
+      "nome": "Lucas Kauê Manoel Vieira",
+      "sexo": "m",
+      "cpf": "201.342.463-90",
+      "dataNascimento": "1966-03-18T03:00:00.000Z",
+      "rg": "29.957.448-9",
+      "cargo": "Assistente",
+      "noEpi": false,
+      "atividades": [
+        {
+          "nome": "Operar máquinas de corte",
+          "epis": [
+            {
+              "numeroCA": "ca1",
+              "nomeEPI": "epi1"
+            }
+          ]
+        }
+      ],
+      "companyId": "1",
+      "id": "423112"
+    },
+    {
+      "id": "371409",
+      "nome": "Pedro Henrique Ruan Teixeira",
+      "sexo": "m",
+      "cpf": "992.474.823-99",
+      "dataNascimento": "1961-06-19T03:00:00.000Z",
+      "rg": "19.367.504-3",
+      "cargo": "Supervisor",
+      "noEpi": true,
+      "companyId": "1"
+    }
+  ]
 }
